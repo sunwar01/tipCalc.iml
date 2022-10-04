@@ -11,22 +11,27 @@ import java.math.BigDecimal;
 
 public class tipCalcController {
 
+    @FXML
+    private void calculateButtonPressed(ActionEvent event){
 
 
+    }
 
     @FXML
-    private TextField Amount;
+    private TextField amountTextField;
 
     @FXML
-    private Slider Slider;
+    private Button calculateButton;
 
     @FXML
-    private Button calculate;
+    private Label tipPercentageLabel;
 
     @FXML
-    private TextField tip;
+    private Slider tipPercentageSlider;
 
     @FXML
-    private TextField total;
+    private TextField tipTextField;
 
+    @FXML
+    private TextField totalTextField;
 }
